@@ -1,0 +1,250 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 22, 2017, 10:32:45 AM
+    Author     : delgerbayar
+*/
+
+h3.job-page-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: inherit;
+}
+h3.job-map-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: inherit;
+    padding-left: 15px;
+}
+.job-ad-item {
+    padding: 15px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ccc;
+    margin: 18px 0;
+    border-radius: 2px;
+}
+.job-ad-item:hover {
+    background: #F4F4F4;
+}
+.job-ad-item .item-info {
+    min-height: 0;
+    overflow: hidden;
+}
+.item-image-box, .item-info {
+    padding: 0;
+    margin: 0;
+}
+.job-ad-item .item-image-box, .job-ad-item .ad-info {
+    float: left;
+}
+.item-image-box {
+    overflow: hidden;
+}
+.item-image-box, .item-info {
+    padding: 0;
+    margin: 0;
+}
+.job-ad-item .item-image {
+    width: 109px;
+    height: 109px;
+    border: 1px solid #f3f3f3;
+    overflow: hidden;
+}
+.item-image {
+    position: relative;
+}
+.job-ad-item img {
+    width: inherit;
+}
+.item-image img {
+    width: 100%;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.job-ad-item .ad-info {
+    padding: 5px 25px;
+}
+.job-ad-item .ad-info span {
+    color: #000;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+.job-ad-item .ad-info span {
+    color: #a0a0a0;
+    font-size: 14px;
+    line-height: 17px;
+}
+.job-ad-item .ad-info a.title {
+    font-weight: 300;
+    color: #000;
+    font-weight: 500;
+}
+.job-ad-item .ad-info span a {
+    color: #000;
+    font-size: inherit;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+.job-ad-item .ad-info span a:first-letter {
+    text-transform: uppercase;
+}
+.title {
+    line-height: 34px;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+.job-ad-item .ad-meta {
+    position: inherit;
+    background-color: transparent;
+    border-top: none;
+    padding-left: 0;
+    min-height: inherit;
+    display: inline;
+}
+.ad-meta {
+    background-color: #f6f6f6;
+    border-top: 1px solid #eeeeee;
+    min-height: 35px;
+    position: absolute;
+    bottom: 0;
+    right: -1px;
+    width: 100%;
+    padding-left: 25px;
+    display: table;
+    font-size: 14px;
+}
+.job-ad-item .ad-meta li:first-child {
+    margin-left: 0;
+}
+.job-ad-item .ad-meta li {
+    float: left;
+    margin-left: 20px;
+}
+.job-ad-item .ad-meta a, .job-ad-item .ad-meta li {
+    font-size: 14px;
+    color: #555;
+    text-transform: lowercase;
+}
+.job-ad-item .ad-meta i, .job-ad-item .ad-meta a i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.ad-meta a i {
+    text-align: right;
+}
+.job-ad-item .button {
+    float: right;
+}
+.job-ad-item .btn.btn-primary {
+    padding: 5px 30px 6px;
+    margin-top: 25px;
+    font-size: 14px;
+    margin-right: 25px;
+}
+.job-detail-modal .modal-body .fa {
+    font-size: 16px;
+}
+.job-detail-modal  .modal-title {
+    margin-right: 30px;
+    text-transform: capitalize;
+}
+
+#chartdiv {
+    width: 100%;
+    height: 500px;
+    background: #CEE0F6;
+}
+
+.map-marker {
+    /* adjusting for the marker dimensions
+    so that it is centered on coordinates */
+    margin-left: -6px;
+    margin-top: -4px;
+}
+.map-marker.map-clickable {
+    cursor: pointer;
+}
+.pulse {
+    width: 5px;
+    height: 5px;
+    border: 3px solid #EF4035;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+
+    z-index: 10;
+    position: absolute;
+}
+.map-marker .dot {
+    border: 10px solid #EF4035;
+    background: transparent;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    height: 50px;
+    width: 50px;
+    -webkit-animation: pulse 3s ease-out;
+    -moz-animation: pulse 3s ease-out;
+    animation: pulse 3s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    z-index: 1;
+    opacity: 0;
+}
+@-moz-keyframes pulse {
+    0% {
+        -moz-transform: scale(0);
+        opacity: 0.0;
+    }
+    25% {
+        -moz-transform: scale(0);
+        opacity: 0.1;
+    }
+    50% {
+        -moz-transform: scale(0.1);
+        opacity: 0.3;
+    }
+    75% {
+        -moz-transform: scale(0.5);
+        opacity: 0.5;
+    }
+    100% {
+        -moz-transform: scale(1);
+        opacity: 0.0;
+    }
+}
+@-webkit-keyframes "pulse" {
+    0% {
+        -webkit-transform: scale(0);
+        opacity: 0.0;
+    }
+    25% {
+        -webkit-transform: scale(0);
+        opacity: 0.1;
+    }
+    50% {
+        -webkit-transform: scale(0.1);
+        opacity: 0.3;
+    }
+    75% {
+        -webkit-transform: scale(0.5);
+        opacity: 0.5;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 0.0;
+    }
+}

@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 29, 2017, 10:51:21 AM
+    Author     : Nominerdene
+*/
+
+input[type="file"] {
+    height: auto;
+}
+ul.treeViewBrowserUL {
+    list-style: square inside url("/images/icons/folder-7-16.png");
+}
+ul.treeViewBrowserUL li{
+    margin-top: 3px;
+    cursor: pointer;
+}
+ul.treeViewBrowserUL li:hover {
+    background-color: #F5F5F5;
+}
+td.content-title-td-cell{
+    max-width: 250px;
+}
+
+/*
+#treeViewBrowser {
+    border: 1px solid #0078cc;
+    height: 400px;
+    margin-top: 10px;
+    overflow: auto;
+    padding: 5px 5px 0;
+    width: 600px;
+}
+ul.treeViewBrowserUL {
+    margin: 0;
+    padding: 0;
+}
+ul.treeViewBrowserUL li {
+    list-style: outside none none;
+    margin: 0;
+    padding: 2px 0 0;
+    white-space: nowrap;
+}
+.treeViewBrowserUL li a.collapsed {
+    background: rgba(0, 0, 0, 0) url("img/plus.png") no-repeat scroll 0 0;
+    cursor: default;
+    display: block;
+    float: left;
+    height: 16px;
+    width: 16px;
+}
+ul.treeViewBrowserUL a {
+    color: #1f75cc;
+    padding: 0 2px;
+    text-decoration: none;
+}*/
+

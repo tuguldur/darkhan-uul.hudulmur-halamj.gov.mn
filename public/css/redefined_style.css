@@ -1,0 +1,149 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 29, 2017, 10:51:21 AM
+    Author     : Nominerdene
+*/
+
+ul.pgwSlider > li span, .pgwSlider > .ps-list > li span {
+    font-size: 13px;
+}
+.pgwSlider .ps-caption {
+    font-size: 13px;
+}
+.main-footer .big-column h4 {
+    color: #333;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.main-menu .navigation > li > ul > li > ul > li > ul{
+    position:absolute;
+    left:100%;
+    top:0px;
+    width:250px;
+    padding:0px;
+    z-index:100;
+    display:none;
+    background:#1c1c1c;
+    border-top:2px solid #eb5210;
+    -webkit-box-shadow:2px 2px 5px 1px rgba(0,0,0,0.05),-2px 0px 5px 1px rgba(0,0,0,0.05);
+    -ms-box-shadow:2px 2px 5px 1px rgba(0,0,0,0.05),-2px 0px 5px 1px rgba(0,0,0,0.05);
+    -o-box-shadow:2px 2px 5px 1px rgba(0,0,0,0.05),-2px 0px 5px 1px rgba(0,0,0,0.05);
+    -moz-box-shadow:2px 2px 5px 1px rgba(0,0,0,0.05),-2px 0px 5px 1px rgba(0,0,0,0.05);
+    box-shadow:2px 2px 5px 1px rgba(0,0,0,0.05),-2px 0px 5px 1px rgba(0,0,0,0.05);
+}
+
+
+.info-box input[type="text"], .info-box input[type="search"]{
+    background: #f6f6f6 none repeat scroll 0 0;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: #222222;
+    display: block;
+    font-size: 14px;
+    height: 35px;
+    line-height: 24px;
+    padding: 10px 50px 10px 20px;
+    position: relative;
+    transition: all 500ms ease 0s;
+    width: 320px;
+}
+
+.info-box .form-group button {
+    background: #333333 none repeat scroll 0 0;
+    border-radius: 0 3px 3px 0;
+    color: #ffffff;
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    height: 35px;
+    line-height: 5px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 50px;
+}
+
+.info-box .form-group input:focus{
+    border-color:#eb5310;	
+}
+
+.info-box .form-group input:focus + button,
+.info-box .form-group button:hover{
+    background-color:#eb5310;
+}
+
+.footer-subsidiary-organizations {
+    float: left;
+    height: 400px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.post-content-scroll {
+    float: left;
+    height: 250px;
+    overflow: hidden;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.sec-title h3 {
+    font-size: 16px;
+    background: #fafafc;
+    padding-left: 5px;
+}
+.sec-title h3:before {
+    width: 100px;
+    content: " ";
+}
+
+a.pull-left h4 span {
+    font-size: 16px;
+}
+
+.page-part-style{
+    -webkit-box-shadow: -1px 0 1px -1px rgba(0,0,0,0.3), 1px 0 1px -1px rgba(0,0,0,0.3);
+    -moz-box-shadow: -1px 0 1px -1px rgba(0,0,0,0.3), 1px 0 1px -1px rgba(0,0,0,0.3);
+    box-shadow: -1px 0 1px -1px rgba(0,0,0,0.3), 1px 0 1px -1px rgba(0,0,0,0.3);
+}
+
+.ps-list li {
+    border: 1px solid #ddd;
+}
+.pgwSlider .ps-current {
+    border: 1px solid #ddd;
+}
+.pgwSlider .ps-caption {
+    background: rgba(15, 77, 140, 0.8);
+}
+.pgwSlider .ps-caption b {
+    color: #fff;
+    font-weight: 500;
+}
+ul.pgwSlider > li span, .pgwSlider > .ps-list > li span{
+    background: rgba(15, 77, 140, 0.5);
+}
+.top-text-ads-marquee {
+    width: 300px;
+    overflow: hidden;
+    color: #fff;
+}
+.text-right {
+    text-align: center;
+}
+
+.badge {
+    background-color: #F17752;
+}
+
+.active-job-modal-dialog table, th, td {
+    border: 1px solid #ddd;
+}
